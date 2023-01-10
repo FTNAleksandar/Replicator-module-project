@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Writer\\Writer.csproj": {}
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer\\Writer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Replicator\\Replicator.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator\\Replicator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Replicator\\Replicator.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator\\Replicator.csproj",
         "projectName": "Replicator",
-        "projectPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Replicator\\Replicator.csproj",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator\\Replicator.csproj",
         "packagesPath": "C:\\Users\\copa2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Replicator\\obj\\",
+        "outputPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\copa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Writer\\Writer.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer\\Writer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Writer\\Writer.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer\\Writer.csproj",
         "projectName": "Writer",
-        "projectPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Writer\\Writer.csproj",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer\\Writer.csproj",
         "packagesPath": "C:\\Users\\copa2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Writer\\obj\\",
+        "outputPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\copa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Replicator\\Replicator.csproj": {
-                "projectPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Replicator\\Replicator.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator\\Replicator.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator\\Replicator.csproj"
               }
             }
           }

@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Reports/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Reports.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Reports.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Reports/1.0.0": {
-      "type": "project",
-      "path": "../Reports/Reports.csproj",
-      "msbuildProject": "../Reports/Reports.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Reports >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\copa2\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Reader\\Reader.csproj",
+      "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader\\Reader.csproj",
       "projectName": "Reader",
-      "projectPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Reader\\Reader.csproj",
+      "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader\\Reader.csproj",
       "packagesPath": "C:\\Users\\copa2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Reader\\obj\\",
+      "outputPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\copa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Reports\\Reports.csproj": {
-              "projectPath": "C:\\Users\\copa2\\Desktop\\Projekat\\ERS\\Reports\\Reports.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
