@@ -1,4 +1,5 @@
 ﻿using Replicator.DataSetModel;
+using Replicator_Component.DataSetModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,7 @@ namespace Writer.UIHandler
                 Console.WriteLine();
                 Console.WriteLine("Odaberite opciju:");
                 Console.WriteLine("1 - Unos nove potrosnje");
+                Console.WriteLine("2 - Unos novog klijenta");
                 Console.WriteLine("X - Izlazak iz programa");
 
                
@@ -31,7 +33,10 @@ namespace Writer.UIHandler
                 switch (answer)
                 {
                     case "1":
-                        HandleSingleInput();
+                        HandleUsageInput();
+                        break;
+                    case "2":
+                        HandleUserInput();
                         break;
                         
                   
@@ -40,7 +45,7 @@ namespace Writer.UIHandler
             } while (!answer.ToUpper().Equals("X"));
         }
 
-        internal void HandleSingleInput()
+        internal void HandleUsageInput()
         {
             DataSet data = new DataSet();
             IWrite writer = new WriterImpl();
@@ -58,6 +63,32 @@ namespace Writer.UIHandler
 
 
             writer.DataPassThrought(data);
+        }
+        
+        internal void HandleUserInput()
+        {
+            DataSetUser data = new DataSetUser();
+            IWrite writer = new WriterImpl();
+
+            Console.WriteLine("Unesite ID brojila: ");
+            data.BrojiloId = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Unesite ime i prezime klijenta: ");
+            data.UserName = Console.ReadLine();
+
+            Console.WriteLine("Unesite ulicu klijenta: ");
+            data.UserStreet = Console.ReadLine();
+
+            Console.WriteLine("Unesite broj kuce klijenta: ");
+            data.UserStreetNo = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Unesite grad klijenta: ");
+            data.UserCity = Console.ReadLine();
+
+            Console.WriteLine("Unesite postanski broj klijenta: ");
+            data.UserZip = Console.ReadLine();
+
+            writer.UserDataPassThrought(data);
         }
     }
 }
