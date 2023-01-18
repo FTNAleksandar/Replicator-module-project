@@ -97,9 +97,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Replicator_Component\Replicator_Component.csproj">
+    <ProjectReference Include="..\Replicator_Component\Replicator_Receiver_Component.csproj">
       <Project>{4E592049-0C21-49FF-8FD0-FF9D76BDD316}</Project>
-      <Name>Replicator_Component</Name>
+      <Name>Replicator_Receiver_Component</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
