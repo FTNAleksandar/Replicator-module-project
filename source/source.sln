@@ -5,11 +5,13 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Writer_Component", "Writer_Component\Writer_Component.csproj", "{D1B924F7-6A77-485B-B480-A8DEB11B7658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replicator_Component", "Replicator_Component\Replicator_Component.csproj", "{4E592049-0C21-49FF-8FD0-FF9D76BDD316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replicator_Receiver_Component", "Replicator_Component\Replicator_Receiver_Component.csproj", "{4E592049-0C21-49FF-8FD0-FF9D76BDD316}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reports_Component", "Reports_Component\Reports_Component.csproj", "{CD8C4422-1D12-490E-A6FD-6DD13809F969}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader_Component", "Reader_Component\Reader_Component.csproj", "{1188AD06-2B1E-4AF9-9B3B-09A563C01452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replicator_Sender_Component", "Replicator_Sender_Component\Replicator_Sender_Component.csproj", "{BF8F22DA-BE7F-48C4-9C0B-672B9B48C900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1188AD06-2B1E-4AF9-9B3B-09A563C01452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1188AD06-2B1E-4AF9-9B3B-09A563C01452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1188AD06-2B1E-4AF9-9B3B-09A563C01452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8F22DA-BE7F-48C4-9C0B-672B9B48C900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8F22DA-BE7F-48C4-9C0B-672B9B48C900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8F22DA-BE7F-48C4-9C0B-672B9B48C900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8F22DA-BE7F-48C4-9C0B-672B9B48C900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
