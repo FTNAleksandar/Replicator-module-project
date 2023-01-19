@@ -20,3 +20,8 @@ C:\Users\copa2\Desktop\Projekat2\source\Replicator_Receiver_Component\obj\Debug\
 C:\Users\copa2\Desktop\Projekat2\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.csproj.CopyComplete
 C:\Users\copa2\Desktop\Projekat2\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.exe
 C:\Users\copa2\Desktop\Projekat2\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.pdb
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.csproj.AssemblyReference.cache
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.csproj.SuggestedBindingRedirects.cache
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.csproj.CoreCompileInputs.cache
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.exe
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.pdb

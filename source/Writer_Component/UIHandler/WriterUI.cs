@@ -6,7 +6,7 @@ using Database_Component.DataSetModel;
 
 namespace Writer_Component.UIHandler
 {
-    internal class WriterUI
+    public class WriterUI
     {
         public void WriterUIhandler()
         {

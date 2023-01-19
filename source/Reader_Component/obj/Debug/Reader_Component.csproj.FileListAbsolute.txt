@@ -29,3 +29,8 @@ C:\Users\copa2\Desktop\Projekat\Replicator-module-project-main\source\Reader_Com
 C:\Users\copa2\Desktop\Projekat\Replicator-module-project-main\source\Reader_Component\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\copa2\Desktop\Projekat\Replicator-module-project-main\source\Reader_Component\bin\Debug\System.ValueTuple.xml
 C:\Users\copa2\Desktop\Projekat\Replicator-module-project-main\source\Reader_Component\obj\Debug\Reader_Component.csproj.CopyComplete
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.AssemblyReference.cache
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.SuggestedBindingRedirects.cache
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.CoreCompileInputs.cache
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.exe
+C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.pdb
