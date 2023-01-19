@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD8C4422-1D12-490E-A6FD-6DD13809F969}</ProjectGuid>
+    <ProjectGuid>{F6E4CFF6-0036-4C90-93CF-85E1E207EC7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Reports_Component</RootNamespace>
     <AssemblyName>Reports_Component</AssemblyName>
@@ -47,14 +47,15 @@
     <Compile Include="Interface\IReports.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIHandler\ReportsUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Reader_Component\Reader_Component.csproj">
-      <Project>{1188ad06-2b1e-4af9-9b3b-09a563c01452}</Project>
-      <Name>Reader_Component</Name>
+    <ProjectReference Include="..\Database_Component\Database_Component.csproj">
+      <Project>{a2d1de21-b135-46a4-985f-3d38faca4300}</Project>
+      <Name>Database_Component</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

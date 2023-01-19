@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Reports_Component.UI_Handler;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Reports_Component
     {
         static void Main(string[] args)
         {
+            ReportsUI ui = new ReportsUI();
+            ui.reportsUIhandler();
         }
     }
 }

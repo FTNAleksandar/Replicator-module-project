@@ -1,16 +1,17 @@
-﻿using System;
+﻿using DataSet = Database_Component.DataSetModel.DataSet;
+using Database_Component.DataSetModel;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Reports_Component.Interface
 {
     interface IReports
     {
-        void getMonthbyStreet();
+        List<DataSet> getMonthbyStreetData(string street);
 
-        void getMonthbyId();
+        List<DataSet> getMonthbyIdData(int id);
+
+        void showDataset(List<DataSet> dataSets);
 
         
 
