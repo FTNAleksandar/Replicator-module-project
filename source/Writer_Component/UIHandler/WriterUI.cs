@@ -1,21 +1,16 @@
-﻿using Replicator.DataSetModel;
-using Replicator_Component.DataSetModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Writer.Interface;
-using Writer.Interface.Impl;
+﻿using System;
+using Writer_Component.Interface;
+using Writer_Component.Interface.Impl;
+using DataSet = Database_Component.DataSetModel.DataSet;
+using Database_Component.DataSetModel;
 
-namespace Writer.UIHandler
+namespace Writer_Component.UIHandler
 {
     internal class WriterUI
     {
-
         public void WriterUIhandler()
         {
-            
+
 
             Console.WriteLine("========================WRITER STARTED========================");
             string answer;
@@ -27,8 +22,8 @@ namespace Writer.UIHandler
                 Console.WriteLine("2 - Unos novog klijenta");
                 Console.WriteLine("X - Izlazak iz programa");
 
-               
-              answer = Console.ReadLine();
+
+                answer = Console.ReadLine();
 
                 switch (answer)
                 {
@@ -38,8 +33,8 @@ namespace Writer.UIHandler
                     case "2":
                         HandleUserInput();
                         break;
-                        
-                  
+
+
                 }
 
             } while (!answer.ToUpper().Equals("X"));
@@ -48,7 +43,8 @@ namespace Writer.UIHandler
         internal void HandleUsageInput()
         {
             DataSet data = new DataSet();
-            IWrite writer = new WriterImpl();
+            IWriter writer = new WriterImpl();
+
 
             Console.WriteLine();
 
@@ -64,11 +60,11 @@ namespace Writer.UIHandler
 
             writer.DataPassThrought(data);
         }
-        
+
         internal void HandleUserInput()
         {
             DataSetUser data = new DataSetUser();
-            IWrite writer = new WriterImpl();
+            IWriter writer = new WriterImpl();
 
             Console.WriteLine("Unesite ID brojila: ");
             data.BrojiloId = int.Parse(Console.ReadLine());

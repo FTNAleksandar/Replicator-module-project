@@ -1,26 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Replicator;
-using Replicator.DataSetModel;
-using Replicator_Component.DataSetModel;
+﻿
+using Replicator_Sender_Component.Interfaces;
+using Replicator_Sender_Component.Interfaces.Impl;
+using DataSet = Database_Component.DataSetModel.DataSet;
+using Database_Component.DataSetModel;
 
-namespace Writer.Interface.Impl
+namespace Writer_Component.Interface.Impl
 {
-    internal class WriterImpl : IWrite
+    internal class WriterImpl : IWriter
     {
         public void DataPassThrought(DataSet data)
         {
-            //TODO replicator
-            throw new NotImplementedException();
+
+            IReplicatorSender replicatorSender = new ReplicatorSenderImpl();
+            replicatorSender.getUsageDataFromWriter(data);
+
         }
 
         public void UserDataPassThrought(DataSetUser data)
         {
-            //TODO replicator
-            throw new NotImplementedException();
+
+            IReplicatorSender replicatorSender = new ReplicatorSenderImpl();
+            replicatorSender.getUserDataFromWriter(data);
+
         }
     }
 }

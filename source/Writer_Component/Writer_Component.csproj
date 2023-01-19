@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1B924F7-6A77-485B-B480-A8DEB11B7658}</ProjectGuid>
+    <ProjectGuid>{DE8C9FE1-689F-4A8A-9D73-D4FE3615A931}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Writer_Component</RootNamespace>
     <AssemblyName>Writer_Component</AssemblyName>
@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\Impl\WriterImpl.cs" />
-    <Compile Include="Interface\IWrite.cs" />
+    <Compile Include="Interface\IWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UIHandler\WriterUI.cs" />
@@ -53,9 +53,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Replicator_Component\Replicator_Receiver_Component.csproj">
-      <Project>{4e592049-0c21-49ff-8fd0-ff9d76bdd316}</Project>
-      <Name>Replicator_Receiver_Component</Name>
+    <ProjectReference Include="..\Database_Component\Database_Component.csproj">
+      <Project>{a2d1de21-b135-46a4-985f-3d38faca4300}</Project>
+      <Name>Database_Component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Replicator_Sender_Component\Replicator_Sender_Component.csproj">
+      <Project>{f9bb7f0f-1c67-4012-a83d-7493cb883711}</Project>
+      <Name>Replicator_Sender_Component</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

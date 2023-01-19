@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Writer.UIHandler;
+using Writer_Component.UIHandler;
 
 namespace Writer_Component
 {
@@ -11,10 +11,9 @@ namespace Writer_Component
     {
         static void Main(string[] args)
         {
-
             WriterUI ui = new WriterUI();
 
             ui.WriterUIhandler();
-         }
+        }
     }
 }
