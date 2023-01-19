@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF8F22DA-BE7F-48C4-9C0B-672B9B48C900}</ProjectGuid>
+    <ProjectGuid>{F9BB7F0F-1C67-4012-A83D-7493CB883711}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Replicator_Sender_Component</RootNamespace>
     <AssemblyName>Replicator_Sender_Component</AssemblyName>
@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\Impl\ReplicatorSenderImpl.cs" />
+    <Compile Include="Interface\IReplicatorSender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Database_Component\Database_Component.csproj">
+      <Project>{a2d1de21-b135-46a4-985f-3d38faca4300}</Project>
+      <Name>Database_Component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Replicator_Receiver_Component\Replicator_Receiver_Component.csproj">
+      <Project>{4bac9b25-8fe5-46cb-9e99-8b9fe2617a86}</Project>
+      <Name>Replicator_Receiver_Component</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
