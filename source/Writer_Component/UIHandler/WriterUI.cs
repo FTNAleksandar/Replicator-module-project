@@ -12,7 +12,6 @@ namespace Writer_Component.UIHandler
         {
 
 
-            Console.WriteLine("========================WRITER STARTED========================");
             string answer;
             do
             {

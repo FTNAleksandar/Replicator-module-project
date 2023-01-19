@@ -14,7 +14,6 @@ namespace Reports_Component.UI_Handler
         public void reportsUIhandler()
         {
 
-            Console.WriteLine("========================WRITER STARTED========================");
             string answer;
             do
             {
