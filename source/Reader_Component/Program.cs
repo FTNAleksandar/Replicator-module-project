@@ -10,8 +10,6 @@ namespace Reader_Component
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("====================Reader_Component====================");
-            Console.WriteLine("====================STARTED====================");
         }
     }
 }

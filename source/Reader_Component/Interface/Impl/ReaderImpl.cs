@@ -1,15 +1,14 @@
-﻿using ODP_NET_Theatre.Utils;
-using Reader_Component.DatabaseConnection;
-using Replicator_Component.DataSetModel;
+﻿using DataSet = Database_Component.DataSetModel.DataSet;
+using Database_Component.DataSetModel;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using DataSet = Replicator.DataSetModel.DataSet;
-
+using Reader_Component.DatabaseConnection;
+using Database_Component.Utils;
 
 namespace Reader_Component.Interface.Impl
 {
-    internal class ReaderImpl : IReader
+    public class ReaderImpl : IReader
     {
         public List<DataSet> GetBrojiloData()
         {
@@ -67,21 +66,21 @@ namespace Reader_Component.Interface.Impl
         }
         internal bool ExistsById(int id, IDbConnection connection)
         {
-            string query = "select * from theatre where id_th=:id_th";
+            string query = "select * from usageBrojilo where id_brojila=:id_brojila";
 
             using (IDbCommand command = connection.CreateCommand())
             {
                 command.CommandText = query;
-                ParameterUtil.AddParameter(command, "id_th", DbType.Int32);
+                ParameterUtil.AddParameter(command, "id_brojila", DbType.Int32);
                 command.Prepare();
-                ParameterUtil.SetParameterValue(command, "id_th", id);
+                ParameterUtil.SetParameterValue(command, "id_brojila", id);
                 return command.ExecuteScalar() != null;
             }
         }
 
         internal bool ExistsByIdUser(int id, IDbConnection connection)
         {
-            string query = "select * from theatre where id_th=:id_th";
+            string query = "select * from userBrojilo where id_brojila=:id_brojila";
 
             using (IDbCommand command = connection.CreateCommand())
             {
@@ -108,7 +107,7 @@ namespace Reader_Component.Interface.Impl
 
                 using (IDbCommand command = connection.CreateCommand())
                 {
-                    command.CommandText = ExistsById(data.BrojiloId, connection) ? updateSql : insertSql;
+                    command.CommandText = insertSql;
 
                     ParameterUtil.AddParameter(command, "id_brojila", DbType.Int64);
                     ParameterUtil.AddParameter(command, "usage", DbType.Decimal);
