@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Writer_Component", "Writer_Component\Writer_Component.csproj", "{DE8C9FE1-689F-4A8A-9D73-D4FE3615A931}"
 EndProject
@@ -9,13 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replicator_Sender_Component
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replicator_Receiver_Component", "Replicator_Receiver_Component\Replicator_Receiver_Component.csproj", "{4BAC9B25-8FE5-46CB-9E99-8B9FE2617A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader_Component", "Reader_Component\Reader_Component.csproj", "{1188AD06-2B1E-4AF9-9B3B-09A563C01452}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader_Component", "Reader_Component\Reader_Component.csproj", "{F38B3389-1CFD-422B-A5C0-B466B338635E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reports_Component", "Reports_Component\Reports_Component.csproj", "{F6E4CFF6-0036-4C90-93CF-85E1E207EC7E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_Component", "Database_Component\Database_Component.csproj", "{A2D1DE21-B135-46A4-985F-3D38FACA4300}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{62DDD94E-D781-46C8-B64C-FA07BD8E6A50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7E4362C0-232B-4AE6-8655-60032E3559C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Writer Component Test", "Writer Component Test\Writer Component Test.csproj", "{C5BC8410-E9C6-4EFA-900D-105DF76DE6A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +39,10 @@ Global
 		{4BAC9B25-8FE5-46CB-9E99-8B9FE2617A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BAC9B25-8FE5-46CB-9E99-8B9FE2617A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BAC9B25-8FE5-46CB-9E99-8B9FE2617A86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1188AD06-2B1E-4AF9-9B3B-09A563C01452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1188AD06-2B1E-4AF9-9B3B-09A563C01452}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1188AD06-2B1E-4AF9-9B3B-09A563C01452}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1188AD06-2B1E-4AF9-9B3B-09A563C01452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38B3389-1CFD-422B-A5C0-B466B338635E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38B3389-1CFD-422B-A5C0-B466B338635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38B3389-1CFD-422B-A5C0-B466B338635E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38B3389-1CFD-422B-A5C0-B466B338635E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F6E4CFF6-0036-4C90-93CF-85E1E207EC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6E4CFF6-0036-4C90-93CF-85E1E207EC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6E4CFF6-0036-4C90-93CF-85E1E207EC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,9 +55,16 @@ Global
 		{62DDD94E-D781-46C8-B64C-FA07BD8E6A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62DDD94E-D781-46C8-B64C-FA07BD8E6A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62DDD94E-D781-46C8-B64C-FA07BD8E6A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BC8410-E9C6-4EFA-900D-105DF76DE6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BC8410-E9C6-4EFA-900D-105DF76DE6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BC8410-E9C6-4EFA-900D-105DF76DE6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BC8410-E9C6-4EFA-900D-105DF76DE6A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5BC8410-E9C6-4EFA-900D-105DF76DE6A6} = {7E4362C0-232B-4AE6-8655-60032E3559C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA236950-710D-4486-A061-1D179B1A2AD1}

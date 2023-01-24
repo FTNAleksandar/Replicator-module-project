@@ -6,7 +6,7 @@ using Database_Component.DataSetModel;
 
 namespace Writer_Component.Interface.Impl
 {
-    internal class WriterImpl : IWriter
+    public class WriterImpl : IWriter
     {
         public void DataPassThrought(DataSet data)
         {

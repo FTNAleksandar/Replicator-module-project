@@ -1,0 +1,2 @@
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Writer Component Test\obj\Debug\Writer Component Test.csproj.AssemblyReference.cache
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Writer Component Test\obj\Debug\Writer Component Test.csproj.CoreCompileInputs.cache

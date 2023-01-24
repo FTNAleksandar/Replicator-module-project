@@ -55,3 +55,21 @@ C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Reports_Componen
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.csproj.CopyComplete
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.exe
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\Reports_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\Reports_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\Reports_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\Database_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\System.Memory.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\System.Buffers.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\Database_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\Database_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\System.Memory.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\bin\Debug\System.Buffers.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.csproj.AssemblyReference.cache
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.csproj.CoreCompileInputs.cache
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.csproj.CopyComplete
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.pdb

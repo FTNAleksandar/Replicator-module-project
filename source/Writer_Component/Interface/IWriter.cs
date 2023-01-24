@@ -9,7 +9,7 @@ using Database_Component.DataSetModel;
 
 namespace Writer_Component.Interface
 {
-    internal interface IWriter
+    public interface IWriter
     {
         void DataPassThrought(DataSet data);
 

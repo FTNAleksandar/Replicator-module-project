@@ -54,3 +54,30 @@ C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Database_Compone
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.csproj.CopyComplete
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.exe
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\Database_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\Database_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\Database_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Buffers.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Memory.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Text.Json.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.ValueTuple.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Buffers.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Memory.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Text.Json.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\bin\Debug\System.ValueTuple.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.csproj.AssemblyReference.cache
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.csproj.CoreCompileInputs.cache
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.csproj.CopyComplete
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Database_Component\obj\Debug\Database_Component.pdb

@@ -66,3 +66,36 @@ C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\UI\obj\Debug\UI.
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\UI\obj\Debug\UI.exe
 C:\Users\E550\Desktop\Projekat\Replicator-module-project\source\UI\obj\Debug\UI.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\UI.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\UI.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\UI.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Reports_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Writer_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Database_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Replicator_Sender_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Replicator_Receiver_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\System.Memory.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Reader_Component.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\System.Buffers.dll
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Reports_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Reports_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Writer_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Writer_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Database_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Database_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Replicator_Sender_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Replicator_Sender_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Replicator_Receiver_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Replicator_Receiver_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\System.Memory.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Reader_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\Reader_Component.exe.config
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\bin\Debug\System.Buffers.xml
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\obj\Debug\UI.exe
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\obj\Debug\UI.pdb
