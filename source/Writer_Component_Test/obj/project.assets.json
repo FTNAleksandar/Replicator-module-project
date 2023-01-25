@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Database_Component/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Database_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Database_Component.dll": {}
+        }
+      },
+      "Reader_Component/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Database_Component": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reader_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reader_Component.dll": {}
+        }
+      },
+      "Replicator_Receiver_Component/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Database_Component": "1.0.0",
+          "Reader_Component": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Replicator_Receiver_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Replicator_Receiver_Component.dll": {}
+        }
+      },
+      "Replicator_Sender_Component/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Database_Component": "1.0.0",
+          "Replicator_Receiver_Component": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Replicator_Sender_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Replicator_Sender_Component.dll": {}
+        }
+      },
+      "Writer_Component/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Database_Component": "1.0.0",
+          "Replicator_Sender_Component": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Writer_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Writer_Component.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Database_Component/1.0.0": {
+      "type": "project",
+      "path": "../Database_Component/Database_Component.csproj",
+      "msbuildProject": "../Database_Component/Database_Component.csproj"
+    },
+    "Reader_Component/1.0.0": {
+      "type": "project",
+      "path": "../Reader_Component/Reader_Component.csproj",
+      "msbuildProject": "../Reader_Component/Reader_Component.csproj"
+    },
+    "Replicator_Receiver_Component/1.0.0": {
+      "type": "project",
+      "path": "../Replicator_Receiver_Component/Replicator_Receiver_Component.csproj",
+      "msbuildProject": "../Replicator_Receiver_Component/Replicator_Receiver_Component.csproj"
+    },
+    "Replicator_Sender_Component/1.0.0": {
+      "type": "project",
+      "path": "../Replicator_Sender_Component/Replicator_Sender_Component.csproj",
+      "msbuildProject": "../Replicator_Sender_Component/Replicator_Sender_Component.csproj"
+    },
+    "Writer_Component/1.0.0": {
+      "type": "project",
+      "path": "../Writer_Component/Writer_Component.csproj",
+      "msbuildProject": "../Writer_Component/Writer_Component.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Database_Component >= 1.0.0",
+      "Writer_Component >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Milorad Maksimovic\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
+      "projectName": "Writer_Component_Test",
+      "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
+      "packagesPath": "C:\\Users\\Milorad Maksimovic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Milorad Maksimovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+              "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+            },
+            "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj": {
+              "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -54,3 +54,22 @@ C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Re
 C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.CopyComplete
 C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.exe
 C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.pdb
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\Reader_Component.exe.config
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\Reader_Component.exe
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\Reader_Component.pdb
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\Database_Component.exe
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\System.Memory.dll
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\System.Buffers.dll
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\Database_Component.pdb
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\Database_Component.exe.config
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\System.Memory.xml
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\bin\Debug\System.Buffers.xml
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.AssemblyReference.cache
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.SuggestedBindingRedirects.cache
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.CoreCompileInputs.cache
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.CopyComplete
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.exe
+C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.pdb

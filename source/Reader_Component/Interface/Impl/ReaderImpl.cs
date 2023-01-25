@@ -64,33 +64,7 @@ namespace Reader_Component.Interface.Impl
                 return dataList;
             }
         }
-        internal bool ExistsById(int id, IDbConnection connection)
-        {
-            string query = "select * from usageBrojilo where id_brojila=:id_brojila";
-
-            using (IDbCommand command = connection.CreateCommand())
-            {
-                command.CommandText = query;
-                ParameterUtil.AddParameter(command, "id_brojila", DbType.Int32);
-                command.Prepare();
-                ParameterUtil.SetParameterValue(command, "id_brojila", id);
-                return command.ExecuteScalar() != null;
-            }
-        }
-
-        internal bool ExistsByIdUser(int id, IDbConnection connection)
-        {
-            string query = "select * from userBrojilo where id_brojila=:id_brojila";
-
-            using (IDbCommand command = connection.CreateCommand())
-            {
-                command.CommandText = query;
-                ParameterUtil.AddParameter(command, "id_th", DbType.Int32);
-                command.Prepare();
-                ParameterUtil.SetParameterValue(command, "id_th", id);
-                return command.ExecuteScalar() != null;
-            }
-        }
+       
         public void InsertDataSet(DataSet data)
         {
 
@@ -102,8 +76,7 @@ namespace Reader_Component.Interface.Impl
                 string insertSql = "insert into usageBrojilo (id_brojila , usage , month) " +
                     "values (:id_brojila, :usage , :month)";
 
-                string updateSql = "update usageBrojilo set id_brojila=:id_brojila, usage=:usage, " +
-                    "month=:month";
+                
 
                 using (IDbCommand command = connection.CreateCommand())
                 {
@@ -132,12 +105,10 @@ namespace Reader_Component.Interface.Impl
                 string insertSql = "insert into userBrojilo (id_brojila , user_name, user_street , user_street_num , user_city , user_postal_code) " +
                     "values (:id_brojila, :user_name , :user_street, :user_street_num , :user_city ,:user_postal_code)";
 
-                string updateSql = "update userBrojilo set id_brojila=:id_brojila, user_name=:user_name, user_street=:user_street, user_street_num=:user_street_num, user_city=:user_city," +
-                    "user_postal_code=:user_postal_code";
 
                 using (IDbCommand command = connection.CreateCommand())
                 {
-                    command.CommandText = ExistsByIdUser(data.BrojiloId, connection) ? updateSql : insertSql;
+                    command.CommandText = insertSql;
 
                     ParameterUtil.AddParameter(command, "id_brojila", DbType.Int64);
                     ParameterUtil.AddParameter(command, "user_name", DbType.String,50);

@@ -17,6 +17,11 @@ namespace Database_Component.DataSetModel
 
         public DataSetUser(int brojiloId, string userName, string userStreet, int userStreetNo, string userCity, string userZip)
         {
+            if (userName == null || userStreet == null || userCity == null || userZip == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             BrojiloId = brojiloId;
             UserName = userName;
             UserStreet = userStreet;

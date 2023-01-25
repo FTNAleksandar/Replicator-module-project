@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
+        "projectName": "Database_Component",
+        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
+        "projectName": "Reader_Component",
+        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
+        "projectName": "Replicator_Receiver_Component",
+        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              },
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
+        "projectName": "Replicator_Sender_Component",
+        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              },
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj",
+        "projectName": "Writer_Component",
+        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              },
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
+        "projectName": "Writer_Component_Test",
+        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
+        "packagesPath": "C:\\Users\\Milorad Maksimovic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Milorad Maksimovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              },
+              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj": {
+                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
