@@ -3,6 +3,7 @@ using Writer_Component.Interface;
 using Writer_Component.Interface.Impl;
 using DataSet = Database_Component.DataSetModel.DataSet;
 using Database_Component.DataSetModel;
+using System.Linq.Expressions;
 
 namespace Writer_Component.UIHandler
 {
@@ -47,17 +48,23 @@ namespace Writer_Component.UIHandler
 
             Console.WriteLine();
 
-            Console.WriteLine("Unesite ID brojila: ");
-            data.BrojiloId = int.Parse(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("Unesite ID brojila: ");
+                data.BrojiloId = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Unesite potrosnju vode: ");
-            data.SpentWater = decimal.Parse(Console.ReadLine());
+                Console.WriteLine("Unesite potrosnju vode: ");
+                data.SpentWater = decimal.Parse(Console.ReadLine());
 
-            Console.WriteLine("Unesite mesec kada je izmerena potrosnja: ");
-            data.Month = Console.ReadLine();
+                Console.WriteLine("Unesite mesec kada je izmerena potrosnja: ");
+                data.Month = Console.ReadLine();
 
-
-            writer.DataPassThrought(data);
+                writer.DataPassThrought(data);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
 
         internal void HandleUserInput()
