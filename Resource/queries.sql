@@ -5,7 +5,7 @@ CREATE TABLE userBrojilo (
     user_street_num   INTEGER NOT NULL,
     user_city         VARCHAR2(32 CHAR) NOT NULL,
     user_postal_code  INTEGER  NOT NULL,
-    CONSTRAINT userBrojilo_PK PRIMARY KEY (Mbr)
+    CONSTRAINT userBrojilo_PK PRIMARY KEY (id_brojila)
 );
 
 
