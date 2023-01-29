@@ -11,6 +11,11 @@ namespace Replicator_Sender_Component.Interfaces.Impl
     {
         public async void getUsageDataFromWriter(DataSet data)
         {
+            if(data == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             IReplicatorReceiver replicatorReceiver = new ReplicatorReceiverImpl();
             await Task.Delay(2000);     //Wait 2seconds
             replicatorReceiver.getUsageDataFromReplicatorSender(data);
@@ -18,6 +23,12 @@ namespace Replicator_Sender_Component.Interfaces.Impl
 
         public async void getUserDataFromWriter(DataSetUser data)
         {
+
+            if (data == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             IReplicatorReceiver replicatorReceiver = new ReplicatorReceiverImpl();
             await Task.Delay(2000);     //Wait 2seconds
             replicatorReceiver.getUserDataFromReplicatorSender(data);

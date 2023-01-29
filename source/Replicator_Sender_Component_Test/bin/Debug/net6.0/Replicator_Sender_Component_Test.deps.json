@@ -8,10 +8,12 @@
     ".NETCoreApp,Version=v6.0": {
       "Replicator_Sender_Component_Test/1.0.0": {
         "dependencies": {
+          "Database_Component": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
+          "Replicator_Sender_Component": "1.0.0",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
@@ -651,6 +653,45 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "Database_Component/1.0.0": {
+        "runtime": {
+          "Database_Component.exe": {}
+        }
+      },
+      "Reader_Component/1.0.0": {
+        "dependencies": {
+          "Database_Component": "1.0.0"
+        },
+        "runtime": {
+          "Reader_Component.exe": {}
+        }
+      },
+      "Replicator_Receiver_Component/1.0.0": {
+        "dependencies": {
+          "Database_Component": "1.0.0",
+          "Reader_Component": "1.0.0"
+        },
+        "runtime": {
+          "Replicator_Receiver_Component.exe": {}
+        }
+      },
+      "Replicator_Sender_Component/1.0.0": {
+        "dependencies": {
+          "Database_Component": "1.0.0",
+          "Replicator_Receiver_Component": "1.0.0"
+        },
+        "runtime": {
+          "Replicator_Sender_Component.exe": {}
+        }
+      },
+      "Oracle.ManagedDataAccess/4.122.21.1": {
+        "runtime": {
+          "Oracle.ManagedDataAccess.dll": {
+            "assemblyVersion": "4.122.21.1",
+            "fileVersion": "4.122.21.1"
+          }
+        }
       }
     }
   },
@@ -988,6 +1029,31 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "Database_Component/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reader_Component/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Replicator_Receiver_Component/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Replicator_Sender_Component/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oracle.ManagedDataAccess/4.122.21.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

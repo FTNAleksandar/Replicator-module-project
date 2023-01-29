@@ -67,36 +67,53 @@ namespace Reader_Component.Interface.Impl
        
         public void InsertDataSet(DataSet data)
         {
-
+            if(data == null)
+            {
+                throw new ArgumentNullException();
+            }
             using (IDbConnection connection = ConnectionUtil_Pooling.GetConnection())
             {
                 connection.Open();
-               
+
 
                 string insertSql = "insert into usageBrojilo (id_brojila , usage , month) " +
                     "values (:id_brojila, :usage , :month)";
 
-                
+
 
                 using (IDbCommand command = connection.CreateCommand())
                 {
-                    command.CommandText = insertSql;
+                    try
+                    {
+                        command.CommandText = insertSql;
 
-                    ParameterUtil.AddParameter(command, "id_brojila", DbType.Int64);
-                    ParameterUtil.AddParameter(command, "usage", DbType.Decimal);
-                    ParameterUtil.AddParameter(command, "month", DbType.String, 50);
-                    
-                    command.Prepare();
-                    ParameterUtil.SetParameterValue(command, "id_brojila",data.BrojiloId);
-                    ParameterUtil.SetParameterValue(command, "usage", data.SpentWater);
-                    ParameterUtil.SetParameterValue(command, "month", data.Month);
-                   
-                    command.ExecuteNonQuery();
+                        ParameterUtil.AddParameter(command, "id_brojila", DbType.Int64);
+                        ParameterUtil.AddParameter(command, "usage", DbType.Decimal);
+                        ParameterUtil.AddParameter(command, "month", DbType.String, 50);
+
+                        command.Prepare();
+                        ParameterUtil.SetParameterValue(command, "id_brojila", data.BrojiloId);
+                        ParameterUtil.SetParameterValue(command, "usage", data.SpentWater);
+                        ParameterUtil.SetParameterValue(command, "month", data.Month);
+
+                        command.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex);
+                    }
+
                 }
             }
         }
         public void InsertDataSetUser(DataSetUser data)
         {
+
+            if (data == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             using (IDbConnection connection = ConnectionUtil_Pooling.GetConnection())
             {
                 connection.Open();

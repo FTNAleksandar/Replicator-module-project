@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Database_Component\Database_Component.csproj" />
+    <ProjectReference Include="..\Reader_Component\Reader_Component.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,16 +1,39 @@
+using Replicator_Sender_Component.Interface.Impl;
+
 namespace Replicator_Receiver_Component_Test
 {
+    [TestFixture]
     public class Tests
     {
-        [SetUp]
-        public void Setup()
+
+       [Test]
+       [TestCase(null)]
+       public void getUsageDataFromReplicatorSenderTest(DataSet data)
         {
+            ReplicatorReceiverImpl rr = new ReplicatorReceiverImpl();
+
+            Assert.Throws<ArgumentNullException>(() =>
+            {
+
+                rr.getUsageDataFromReplicatorSender(data);
+
+            });
+
         }
 
         [Test]
-        public void Test1()
+        [TestCase(null)]
+        public void getUserDataFromReplicatorSenderTest(DataSetUser data)
         {
-            Assert.Pass();
+            ReplicatorReceiverImpl rr = new ReplicatorReceiverImpl();
+
+            Assert.Throws<ArgumentNullException>(() =>
+            {
+
+                rr.getUserDataFromReplicatorSender(data);
+
+            });
+
         }
     }
 }

@@ -973,6 +973,40 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Database_Component/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Database_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Database_Component.dll": {}
+        }
+      },
+      "Reader_Component/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Database_Component": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reader_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reader_Component.dll": {}
+        }
+      },
+      "Replicator_Receiver_Component/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Database_Component": "1.0.0",
+          "Reader_Component": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Replicator_Receiver_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Replicator_Receiver_Component.dll": {}
+        }
       }
     }
   },
@@ -3945,14 +3979,31 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Database_Component/1.0.0": {
+      "type": "project",
+      "path": "../Database_Component/Database_Component.csproj",
+      "msbuildProject": "../Database_Component/Database_Component.csproj"
+    },
+    "Reader_Component/1.0.0": {
+      "type": "project",
+      "path": "../Reader_Component/Reader_Component.csproj",
+      "msbuildProject": "../Reader_Component/Reader_Component.csproj"
+    },
+    "Replicator_Receiver_Component/1.0.0": {
+      "type": "project",
+      "path": "../Replicator_Receiver_Component/Replicator_Receiver_Component.csproj",
+      "msbuildProject": "../Replicator_Receiver_Component/Replicator_Receiver_Component.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Database_Component >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "Replicator_Receiver_Component >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -3982,7 +4033,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+              "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+            },
+            "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
+              "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

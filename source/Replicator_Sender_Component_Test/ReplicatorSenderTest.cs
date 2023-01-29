@@ -1,16 +1,37 @@
+
 namespace Replicator_Sender_Component_Test
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
+
+        [Test]
+        [TestCase(null)]
+        public void getUsageDataFromWriter(DataSet data)
         {
+            ReplicatorSenderImpl rs = new ReplicatorSenderImpl();
+
+            Assert.Throws<ArgumentNullException>(() =>
+            {
+
+                rs.getUsageDataFromWriter(data);
+
+            });
+
         }
 
         [Test]
-        public void Test1()
+        [TestCase(null)]
+        public void getUserDataFromReplicatorSenderTest(DataSetUser data)
         {
-            Assert.Pass();
+            ReplicatorSenderImpl rs = new ReplicatorSenderImpl();
+
+            Assert.Throws<ArgumentNullException>(() =>
+            {
+
+                rs.getUserDataFromWriter(data);
+
+            });
+
         }
     }
 }

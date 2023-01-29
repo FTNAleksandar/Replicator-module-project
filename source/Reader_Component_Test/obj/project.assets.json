@@ -982,6 +982,18 @@
         "runtime": {
           "bin/placeholder/Database_Component.dll": {}
         }
+      },
+      "Reader_Component/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Database_Component": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reader_Component.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reader_Component.dll": {}
+        }
       }
     }
   },
@@ -3959,6 +3971,11 @@
       "type": "project",
       "path": "../Database_Component/Database_Component.csproj",
       "msbuildProject": "../Database_Component/Database_Component.csproj"
+    },
+    "Reader_Component/1.0.0": {
+      "type": "project",
+      "path": "../Reader_Component/Reader_Component.csproj",
+      "msbuildProject": "../Reader_Component/Reader_Component.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3968,6 +3985,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "Reader_Component >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -4000,6 +4018,9 @@
           "projectReferences": {
             "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
               "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+            },
+            "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
+              "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj"
             }
           }
         }

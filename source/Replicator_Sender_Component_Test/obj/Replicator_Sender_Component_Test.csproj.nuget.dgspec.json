@@ -4,6 +4,84 @@
     "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component_Test\\Replicator_Sender_Component_Test.csproj": {}
   },
   "projects": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
+        "projectName": "Database_Component",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
+        "projectName": "Reader_Component",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
+        "projectName": "Replicator_Receiver_Component",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              },
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
+        "projectName": "Replicator_Sender_Component",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              },
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component_Test\\Replicator_Sender_Component_Test.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +105,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              },
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

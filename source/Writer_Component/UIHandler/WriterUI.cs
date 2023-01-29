@@ -68,31 +68,39 @@ namespace Writer_Component.UIHandler
            
         }
 
+      
         internal void HandleUserInput()
         {
-            DataSetUser data = new DataSetUser();
-            IWriter writer = new WriterImpl();
+            try
+            {
+                DataSetUser data = new DataSetUser();
+                IWriter writer = new WriterImpl();
 
-            Console.WriteLine("Unesite ID brojila: ");
-            data.BrojiloId = int.Parse(Console.ReadLine());
+                Console.WriteLine("Unesite ID brojila: ");
+                data.BrojiloId = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Unesite ime i prezime klijenta: ");
-            data.UserName = Console.ReadLine();
+                Console.WriteLine("Unesite ime i prezime klijenta: ");
+                data.UserName = Console.ReadLine();
 
-            Console.WriteLine("Unesite ulicu klijenta: ");
-            data.UserStreet = Console.ReadLine();
+                Console.WriteLine("Unesite ulicu klijenta: ");
+                data.UserStreet = Console.ReadLine();
 
-            Console.WriteLine("Unesite broj kuce klijenta: ");
-            data.UserStreetNo = int.Parse(Console.ReadLine());
+                Console.WriteLine("Unesite broj kuce klijenta: ");
+                data.UserStreetNo = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Unesite grad klijenta: ");
-            data.UserCity = Console.ReadLine();
+                Console.WriteLine("Unesite grad klijenta: ");
+                data.UserCity = Console.ReadLine();
 
-            Console.WriteLine("Unesite postanski broj klijenta: ");
-            data.UserZip = Console.ReadLine();
+                Console.WriteLine("Unesite postanski broj klijenta: ");
+                data.UserZip = Console.ReadLine();
 
-            writer.UserDataPassThrought(data);
+                writer.UserDataPassThrought(data);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
-    
+
     }
 }

@@ -17,9 +17,9 @@ namespace Database_Component_Test
         }
 
         [Test]
-        [TestCase(1, 120, "Januar")]
-        [TestCase(2, 45.2, "Februar")]
-        [TestCase(3, 142.1, "Mart")]
+        [TestCase(1, 120, "januar")]
+        [TestCase(2, 45.2, "februar")]
+        [TestCase(3, 142.1, "mart")]
         
         public void DatasetParamsTest(int BrojiloId, decimal spentWater, string month)
         {

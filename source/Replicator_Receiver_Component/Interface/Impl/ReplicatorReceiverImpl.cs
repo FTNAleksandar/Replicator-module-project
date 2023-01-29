@@ -10,12 +10,22 @@ namespace Replicator_Sender_Component.Interface.Impl
     {
         public void getUsageDataFromReplicatorSender(DataSet data)
         {
+            if (data == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             IReader reader = new ReaderImpl();
             reader.InsertDataSet(data);
         }
 
         public void getUserDataFromReplicatorSender(DataSetUser data)
         {
+            if (data == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             IReader reader = new ReaderImpl();
             reader.InsertDataSetUser(data);
         }

@@ -16,4 +16,9 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Database_Component\Database_Component.csproj" />
+    <ProjectReference Include="..\Replicator_Receiver_Component\Replicator_Receiver_Component.csproj" />
+  </ItemGroup>
+
 </Project>

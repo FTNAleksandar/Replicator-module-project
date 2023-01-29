@@ -8,10 +8,15 @@ using Database_Component.Utils;
 
 namespace Reports_Component.Interface.Impl
 {
-    class ReportsImpl : IReports
+   public class ReportsImpl : IReports
     {
         public List<DataSet> getMonthbyIdData(int id)
         {
+            if(id < 0)
+            {
+                throw new ArgumentException();
+            }
+
             string query = "select id_brojila, usage, month  from usageBrojilo where id_brojila =: id_brojila";
             List<DataSet> dataList = new List<DataSet>();
 
@@ -50,6 +55,11 @@ namespace Reports_Component.Interface.Impl
 
         public List<DataSet> getMonthbyStreetData(string street)
         {
+            if(street == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             string query = "select us.id_brojila, usage, month  from usageBrojilo us, userBrojilo ur where us.id_brojila = ur.id_brojila  and user_street =: user_street";
             List<DataSet> dataList = new List<DataSet>();
 

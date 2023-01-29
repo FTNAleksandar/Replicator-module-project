@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Reports_Component.Interface
 {
-    interface IReports
+    public interface IReports
     {
         List<DataSet> getMonthbyStreetData(string street);
 
