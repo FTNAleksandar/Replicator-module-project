@@ -107,4 +107,3 @@ C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Receiver_Com
 C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.csproj.CopyComplete
 C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.exe
 C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.pdb
-C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Replicator_Receiver_Component\obj\Debug\Replicator_Receiver_Component.csproj.SuggestedBindingRedirects.cache

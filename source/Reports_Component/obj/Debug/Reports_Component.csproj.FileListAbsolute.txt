@@ -92,4 +92,3 @@ C:\Users\W\Source\Repos\Replicator-module-project\source\Reports_Component\obj\D
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.csproj.CopyComplete
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.exe
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.pdb
-C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reports_Component\obj\Debug\Reports_Component.csproj.SuggestedBindingRedirects.cache

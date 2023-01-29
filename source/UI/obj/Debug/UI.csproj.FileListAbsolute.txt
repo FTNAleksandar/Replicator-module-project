@@ -133,4 +133,3 @@ C:\Users\W\Source\Repos\Replicator-module-project\source\UI\obj\Debug\UI.csproj.
 C:\Users\W\Source\Repos\Replicator-module-project\source\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Users\W\Source\Repos\Replicator-module-project\source\UI\obj\Debug\UI.exe
 C:\Users\W\Source\Repos\Replicator-module-project\source\UI\obj\Debug\UI.pdb
-C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\UI\obj\Debug\UI.csproj.SuggestedBindingRedirects.cache

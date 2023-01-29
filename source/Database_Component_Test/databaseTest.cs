@@ -5,7 +5,7 @@ namespace Database_Component_Test
     [TestFixture]
     public class Tests
     {
-
+    
 
         [Test]
         [TestCase()]

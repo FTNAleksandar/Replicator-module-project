@@ -137,4 +137,3 @@ C:\Users\W\Source\Repos\Replicator-module-project\source\Writer_Component\obj\De
 C:\Users\W\Source\Repos\Replicator-module-project\source\Writer_Component\obj\Debug\Writer_Component.csproj.CopyComplete
 C:\Users\W\Source\Repos\Replicator-module-project\source\Writer_Component\obj\Debug\Writer_Component.exe
 C:\Users\W\Source\Repos\Replicator-module-project\source\Writer_Component\obj\Debug\Writer_Component.pdb
-C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Writer_Component\obj\Debug\Writer_Component.csproj.SuggestedBindingRedirects.cache
