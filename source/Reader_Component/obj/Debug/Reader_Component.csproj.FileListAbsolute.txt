@@ -73,3 +73,4 @@ C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\De
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.CopyComplete
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.exe
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.SuggestedBindingRedirects.cache

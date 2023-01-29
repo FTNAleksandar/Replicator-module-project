@@ -122,3 +122,4 @@ C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Sender_Compo
 C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Sender_Component\obj\Debug\Replicator_Sender_Component.csproj.CopyComplete
 C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Sender_Component\obj\Debug\Replicator_Sender_Component.exe
 C:\Users\W\Source\Repos\Replicator-module-project\source\Replicator_Sender_Component\obj\Debug\Replicator_Sender_Component.pdb
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Replicator_Sender_Component\obj\Debug\Replicator_Sender_Component.csproj.SuggestedBindingRedirects.cache
