@@ -13,8 +13,8 @@ namespace Reader_Component.DatabaseConnection
         public static readonly string CLASSROOM_DATA_SOURCE = "//192.168.0.102:1522/db2016";
 
         //TODO: promeniti username i password
-        public static readonly string USER_ID = "ZORAN";
-        public static readonly string PASSWORD = "lozinka";
+        public static readonly string USER_ID = "Exxxxx";
+        public static readonly string PASSWORD = "ftn";
 
     }
 }

@@ -3957,19 +3957,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\E550\\.nuget\\packages\\": {}
+    "C:\\Users\\copa2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E550\\Desktop\\Projekat\\Replicator-module-project\\source\\Reports_Component_Test\\Reports_Component_Test.csproj",
+      "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reports_Component_Test\\Reports_Component_Test.csproj",
       "projectName": "Reports_Component_Test",
-      "projectPath": "C:\\Users\\E550\\Desktop\\Projekat\\Replicator-module-project\\source\\Reports_Component_Test\\Reports_Component_Test.csproj",
-      "packagesPath": "C:\\Users\\E550\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E550\\Desktop\\Projekat\\Replicator-module-project\\source\\Reports_Component_Test\\obj\\",
+      "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reports_Component_Test\\Reports_Component_Test.csproj",
+      "packagesPath": "C:\\Users\\copa2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reports_Component_Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\E550\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\copa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4032,7 +4032,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

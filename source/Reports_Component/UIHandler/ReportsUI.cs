@@ -21,7 +21,7 @@ namespace Reports_Component.UI_Handler
                 Console.WriteLine("Odaberite opciju:");
                 Console.WriteLine("1 - Ispis potrosnje po ID brojila");
                 Console.WriteLine("2 - Ispis potrosnje po Ulici");
-                Console.WriteLine("X - Izlazak iz programa");
+                Console.WriteLine("X - izlazak u meni");
 
 
                 answer = Console.ReadLine();
