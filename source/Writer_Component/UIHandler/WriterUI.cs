@@ -3,6 +3,7 @@ using Writer_Component.Interface;
 using Writer_Component.Interface.Impl;
 using DataSet = Database_Component.DataSetModel.DataSet;
 using Database_Component.DataSetModel;
+using System.Linq.Expressions;
 
 namespace Writer_Component.UIHandler
 {
@@ -19,7 +20,7 @@ namespace Writer_Component.UIHandler
                 Console.WriteLine("Odaberite opciju:");
                 Console.WriteLine("1 - Unos nove potrosnje");
                 Console.WriteLine("2 - Unos novog klijenta");
-                Console.WriteLine("X - Izlazak iz programa");
+                Console.WriteLine("X - Izlazak u meni");
 
 
                 answer = Console.ReadLine();
@@ -47,17 +48,24 @@ namespace Writer_Component.UIHandler
 
             Console.WriteLine();
 
-            Console.WriteLine("Unesite ID brojila: ");
-            data.BrojiloId = int.Parse(Console.ReadLine());
+           
+                Console.WriteLine("Unesite ID brojila(celobrojna vrednost): ");
+                data.BrojiloId = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Unesite potrosnju vode: ");
-            data.SpentWater = decimal.Parse(Console.ReadLine());
+                Console.WriteLine("Unesite potrosnju vode: ");
+                data.SpentWater = decimal.Parse(Console.ReadLine());
 
-            Console.WriteLine("Unesite mesec kada je izmerena potrosnja: ");
-            data.Month = Console.ReadLine();
+                do
+                {
+                    Console.WriteLine("Unesite mesec(malim slovima): ");
+                    data.Month = Console.ReadLine();
+                }
+                while (data.Month != "januar" && data.Month != "februar" && data.Month != "mart" && data.Month != "april" && data.Month != "maj" && data.Month != "jun"
+                     && data.Month != "jul" && data.Month != "avgust" && data.Month != "septembar" && data.Month != "oktobar" && data.Month != "novembar" && data.Month != "decembar");
 
-
-            writer.DataPassThrought(data);
+                writer.DataPassThrought(data);
+            
+           
         }
 
         internal void HandleUserInput()
@@ -85,5 +93,6 @@ namespace Writer_Component.UIHandler
 
             writer.UserDataPassThrought(data);
         }
+    
     }
 }

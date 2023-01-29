@@ -92,7 +92,7 @@ namespace Reports_Component.Interface.Impl
             foreach (DataSet data in dataSets)
             {
                 
-                Console.WriteLine("Brojilo : "+data.BrojiloId +"\nMesec: " +data.Month + "\tPotosilo: " + data.SpentWater);
+                Console.WriteLine("Brojilo : "+data.BrojiloId +"\tMesec: " +data.Month + "\t Potosilo: " + data.SpentWater + " vode");
                 
             }
             Console.WriteLine("-----------------------------------------------");

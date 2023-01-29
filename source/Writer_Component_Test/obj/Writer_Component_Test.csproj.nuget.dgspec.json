@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj": {}
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
         "projectName": "Database_Component",
-        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,16 +19,16 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
         "projectName": "Reader_Component",
-        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
               }
             }
           }
@@ -38,19 +38,19 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
         "projectName": "Replicator_Receiver_Component",
-        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
               },
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Reader_Component\\Reader_Component.csproj"
               }
             }
           }
@@ -60,19 +60,19 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
         "projectName": "Replicator_Sender_Component",
-        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
               },
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Receiver_Component\\Replicator_Receiver_Component.csproj"
               }
             }
           }
@@ -82,19 +82,19 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj",
         "projectName": "Writer_Component",
-        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
               },
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Replicator_Sender_Component\\Replicator_Sender_Component.csproj"
               }
             }
           }
@@ -104,17 +104,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj": {
+    "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
+        "projectUniqueName": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
         "projectName": "Writer_Component_Test",
-        "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
-        "packagesPath": "C:\\Users\\Milorad Maksimovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component_Test\\obj\\",
+        "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component_Test\\Writer_Component_Test.csproj",
+        "packagesPath": "C:\\Users\\copa2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component_Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Milorad Maksimovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\copa2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,11 +128,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Database_Component\\Database_Component.csproj"
               },
-              "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj": {
-                "projectPath": "C:\\Users\\Milorad Maksimovic\\Documents\\GitHub\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj"
+              "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj": {
+                "projectPath": "C:\\Users\\copa2\\Desktop\\UBP\\03_BP1_ODP_NET_Theatre\\03_BP1_ODP_NET_Theatre\\Replicator-module-project\\source\\Writer_Component\\Writer_Component.csproj"
               }
             }
           }
@@ -146,17 +146,49 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
