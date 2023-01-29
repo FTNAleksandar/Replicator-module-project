@@ -35,7 +35,7 @@ namespace Writer_Component_Test
             for (int i = 0; i < 8; i++)
             {
                 // change field value
-                dataset.BrojiloId = BrojiloId + i * 8;
+                dataset.BrojiloId = BrojiloId + i ;
 
                 mock.Setup(p => p.DataPassThrought(dataset));
             }
@@ -57,7 +57,7 @@ namespace Writer_Component_Test
                 for (int i = 0; i < 8; i++)
                 {
                     // change field value
-                    dataset.BrojiloId = BrojiloId + i * 8;
+                    dataset.BrojiloId = BrojiloId + i ;
 
                     mock.Setup(p => p.DataPassThrought(dataset));
                 }

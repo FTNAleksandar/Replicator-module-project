@@ -71,6 +71,7 @@ namespace Reader_Component.Interface.Impl
             {
                 throw new ArgumentNullException();
             }
+
             using (IDbConnection connection = ConnectionUtil_Pooling.GetConnection())
             {
                 connection.Open();
