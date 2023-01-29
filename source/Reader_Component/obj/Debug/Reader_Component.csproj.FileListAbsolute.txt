@@ -73,6 +73,9 @@ C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\De
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.CopyComplete
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.exe
 C:\Users\W\Source\Repos\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.pdb
+<<<<<<< HEAD
+C:\Users\Milorad Maksimovic\Documents\GitHub\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.SuggestedBindingRedirects.cache
+=======
 C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\bin\Debug\Reader_Component.exe.config
 C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\bin\Debug\Reader_Component.exe
 C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\bin\Debug\Reader_Component.pdb
@@ -92,3 +95,4 @@ C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replica
 C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.csproj.CopyComplete
 C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.exe
 C:\Users\copa2\Desktop\UBP\03_BP1_ODP_NET_Theatre\03_BP1_ODP_NET_Theatre\Replicator-module-project\source\Reader_Component\obj\Debug\Reader_Component.pdb
+>>>>>>> 9b5e08be8a628ca6823b366b2249e88b987af3b1

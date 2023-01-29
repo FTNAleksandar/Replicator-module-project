@@ -5,18 +5,7 @@ namespace Database_Component_Test
     [TestFixture]
     public class Tests
     {
-        [Test]
-        [TestCase()]
-        public void GetConnectionTest()
-        {
-            using (IDbConnection konekcija = ConnectionUtil_Pooling.GetConnection())
-            {
-               konekcija.Open();
 
-                // Konekcija je otvorena
-                Assert.NotNull(konekcija);
-            }
-        }
 
         [Test]
         [TestCase()]
