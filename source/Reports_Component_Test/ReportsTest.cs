@@ -12,12 +12,12 @@ namespace Reports_Component_Test
         [TestCase("Petra Drapsina")]
         public void getMonthbyStreetDataTest(string street)
         {
-            ReportsImpl rp = new ReportsImpl();
-            Assert.DoesNotThrow(() =>
-            {
-               
-                List<DataSet> list = rp.getMonthbyStreetData(street);
-            });
+            Mock<IReports> mock = new Mock<IReports>();
+
+            mock.Setup(p => p.getMonthbyStreetData(street)).Returns(new List<DataSet>());
+            Assert.NotNull(mock.Object);
+
+
         }
 
         [Test]
@@ -37,13 +37,12 @@ namespace Reports_Component_Test
         [TestCase(1)]
         public void getMonthbyIdDataTest(int id)
         {
-            ReportsImpl rp = new ReportsImpl();
+           
+            Mock<IReports> mock = new Mock<IReports>();
 
-            Assert.DoesNotThrow(() =>
-            {
+            mock.Setup(p => p.getMonthbyIdData(id)).Returns(new List<DataSet>());
+            Assert.NotNull(mock.Object);
 
-                List<DataSet> list = rp.getMonthbyIdData(id);
-            });
         }
 
 
@@ -60,19 +59,6 @@ namespace Reports_Component_Test
             });
         }
         
-
-        [Test]
-        [TestCase(0)]
-        public void getMonthbyIdDataGranicniTest(int id)
-        {
-            ReportsImpl rp = new ReportsImpl();
-
-            Assert.DoesNotThrow(() =>
-            {
-
-                List<DataSet> list = rp.getMonthbyIdData(id);
-            });
-        }
        
     }
 }

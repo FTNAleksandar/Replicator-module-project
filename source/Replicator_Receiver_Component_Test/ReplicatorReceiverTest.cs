@@ -1,3 +1,4 @@
+using Replicator_Sender_Component;
 using Replicator_Sender_Component.Interface.Impl;
 
 namespace Replicator_Receiver_Component_Test
@@ -33,6 +34,22 @@ namespace Replicator_Receiver_Component_Test
                 rr.getUserDataFromReplicatorSender(data);
 
             });
+
+        }
+        public void mockReplicatorReceiverDataUsage()
+        {
+            Mock<IReplicatorReceiver> mock = new Mock<IReplicatorReceiver>();
+
+            mock.Setup(p => p.getUsageDataFromReplicatorSender(new DataSet(1, 1234, "januar")));
+
+        }
+
+        public void mockReplicatorReceiverDataUser()
+        {
+            Mock<IReplicatorReceiver> mock = new Mock<IReplicatorReceiver>();
+
+            mock.Setup(p => p.getUserDataFromReplicatorSender(new DataSetUser(1, "Ime", "Ulica", 1, "Grad", "36000")));
+            
 
         }
     }

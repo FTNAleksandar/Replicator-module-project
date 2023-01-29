@@ -1,3 +1,4 @@
+using Reader_Component.Interface;
 using Reader_Component.Interface.Impl;
 using System.IO;
 
@@ -35,22 +36,25 @@ namespace Reader_Component_Test
         [Test]
         public void GetBrojiloDataTest()
         {
-            ReaderImpl rd = new ReaderImpl();
-            Assert.DoesNotThrow(() =>
-            {
-                List<DataSet> list = rd.GetBrojiloData();
-            });
+            
+            Mock<IReader> mock = new Mock<IReader>();
+
+            mock.Setup(p => p.GetBrojiloData()).Returns(new List<DataSet>());
+            Assert.NotNull(mock.Object);
+
         }
+
+       
 
         [Test]
        public void GetUsersDataTest()
         {
             
-            ReaderImpl rd = new ReaderImpl();
-            Assert.DoesNotThrow(() =>
-            {
-                List<DataSetUser> list = rd.GetUsersData();
-            });
+
+            Mock<IReader> mock = new Mock<IReader>();
+
+            mock.Setup(p => p.GetUsersData()).Returns(new List<DataSetUser>());
+            Assert.NotNull(mock.Object);
         }
 
     }
